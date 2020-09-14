@@ -1,10 +1,13 @@
 <?php
+
+//  GET PIZZA ORDER
 function pizzaOrder($pizzaType, $Customer)
 {
     $Customer = ucfirst($Customer);
     $Address = getAddress($Customer);
     $Price = getPrice($pizzaType);
 
+//  PRINT ORDER TEXT ON PAGE
     echo 'Creating new order...<br>';
     echo "A {$pizzaType} pizza should be sent to {$Customer}.<br>";
     echo "The address: {$Address}.<br>";
@@ -12,6 +15,7 @@ function pizzaOrder($pizzaType, $Customer)
     echo "Order finished.<br><br>";
 }
 
+//   GET "ADDRESS" FROM CUSTOMER BY SWITCH CASE CHOICE OF NAME
 function getAddress($Customer)
 {
     switch ($Customer) {
@@ -26,6 +30,7 @@ function getAddress($Customer)
     }
 }
 
+//   GET PRICE BY SWITCH CASE CHOICE OF PIZZA
 function getPrice($pizzaType)
 {
     switch ($pizzaType) {
@@ -42,10 +47,12 @@ function getPrice($pizzaType)
     }
 }
 
+//  CREATE main FUNCTION AS PIZZA ORDER
 function main() {
     pizzaOrder('calzone', 'koen');
     pizzaOrder('marguerita', 'manuele');
     pizzaOrder('golden', 'students');
 };
 
+//  CALL THE MAIN FUNCTION FOR REFRESH PAGE
 main();

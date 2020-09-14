@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c240dcd-5838-472b-abe9-57126aad94ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/readable-code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experimental.php" beforeDir="false" afterPath="$PROJECT_DIR$/experimental.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600086115769</updated>
       <workItem from="1600086116830" duration="7027000" />
-      <workItem from="1600110888338" duration="2738000" />
+      <workItem from="1600110888338" duration="3690000" />
     </task>
     <task id="LOCAL-00001" summary="statring repo">
       <created>1600086344086</created>
@@ -69,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600086344086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed code">
+      <created>1600117315108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600117315108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="statring repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="statring repo" />
+    <MESSAGE value="fixed code" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1600086167840">
@@ -104,10 +108,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1600116974385" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600086348614">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600117329161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1600086348614" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/460.1080.1000.504@0.0.1920.1040" timestamp="1600117329161" />
     <state x="803" y="292" key="refactoring.ChangeSignatureDialog" timestamp="1600115592518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
